@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Moja strona">
+	<main>
+		<h1>Nowa strona fajnym eb </h1>
+		<p>srzyftem</p>
+		<Card
+			href="/"
+			title="Go back to the home page"
+			body="Click here to go back to the home page"
+		/>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 70ch;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	p {
+		line-height: 1.6;
+		margin: 1rem 0;
+	}
+</style>
